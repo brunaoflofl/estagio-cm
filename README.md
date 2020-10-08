@@ -1,5 +1,5 @@
 # estagio-cm
-Repositório para atividades/exercícios dos estagiários da CM
+Repositório para atividades/exercícios dos ingressantes da CM
 
 ## Setup do projeto
 1. Realizar o fork do projeto para seu repo;
@@ -9,7 +9,7 @@ Repositório para atividades/exercícios dos estagiários da CM
 5. Configurar Tomcat 8.5.53. na IDE (IntelliJ ou Eclipse);
 6. Se o depoy da aplicação estiver devidamente configurado, ao iniciar o Tomcat e acessar localhost:8080 com a msg:  
 ```
-It works!! Se apresente Estagiário! 
+It works!! Se apresente Novato! 
 ```
 
 ## Tarefa 1 - CRUD Usuário
@@ -20,14 +20,14 @@ It works!! Se apresente Estagiário!
 4. Botão salvar (grava os dados no banco de dados);
 5. Botão pesquisar (usa as informações digitadas nos campos e pesquisa no banco de dados, listando em uma tabela abaixo os registros encontrados);
 
-## Tarefa Bônus - Autenticação
+## Tarefa 2 - Autenticação
 ### Implementar mecanismo de autenticação onde:
 1. Tela inicial da aplicação é uma tela de login (usuario e senha);
 2. Somente usuarios logados poderão acessar as páginas da aplicação;
 
 ### Detalhes da aplicação
-- Usar o modelo de camadas que foi demonstrado na TechMeeting (Controller, Service, Repository, Model)
-- Usar JSPs e Javascript com JQuery;
+- Usar modelo de camadas (Controller, Service, Repository, Model)
+- Usar JSPs e Javascript com JQuery ou com Vue.js / axios;
 - Usar VRaptor (v3.5.2), Spring (v4.3.4.RELEASE) e Hibernate (v4.2.12.Final);
 - Usar Tomcat (v8.5.30) e PostgreSQL (v10);
 - Usar Gradle (v4.10.3)
